@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ICC_Test.ICC_Homepage_TestPerform
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 121.319 s - in ICC_Test.ICC_Homepage_TestPerform

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ICC_Test.ICC_Login_Page_Test">
+        <methods>
+          <include name="launch"/>
+          <include name="SignWithFacebookLinkFunctionality"/>
+          <include name="LoginButtonFunctionality"/>
+          <include name="PasswordnputBoxFunctionality"/>
+          <include name="RegistrationPageLinkFunctionality"/>
+          <include name="EmailInputBoxFunctionality"/>
+          <include name="LoginWithInvalidEmailAndPassword"/>
+          <include name="LoginWithInvalidEmailAndValidPassword"/>
+          <include name="LoginByEnteringOnlyPassword"/>
+          <include name="LoginWithValidEmailAndPassword"/>
+          <include name="RememberMeCheckBox"/>
+          <include name="SeeEnteredPasswordFunctionality"/>
+          <include name="SignWithGoogleLinkFunctionality"/>
+          <include name="LoginWithoutEnteringEmailAndPassword"/>
+          <include name="LoginByEnteringOnlyEmail"/>
+          <include name="SignWithAppleLinkFunctionality"/>
+          <include name="LogOut"/>
+          <include name="LoginWithValidEmailAndInvalidPassword"/>
+          <include name="close"/>
+          <include name="ForgotPasswordLink"/>
+        </methods>
+      </class> <!-- ICC_Test.ICC_Login_Page_Test -->
+      <class name="ICC_Test.ICC_Homepage_Items_Functionality_TestPerform">
+        <methods>
+          <include name="launch"/>
+          <include name="close"/>
+          <include name="IccTvSection"/>
+          <include name="AwardsSection"/>
+          <include name="MatchFixtureButtonFunctionality"/>
+          <include name="ScoresSection"/>
+          <include name="TravelSection"/>
+          <include name="HomeSection"/>
+          <include name="RankingsSection"/>
+          <include name="VideosSection"/>
+          <include name="NewsSection"/>
+          <include name="EventsSection"/>
+          <include name="ShopSection"/>
+        </methods>
+      </class> <!-- ICC_Test.ICC_Homepage_Items_Functionality_TestPerform -->
+      <class name="ICC_Test.ICC_Scores_Page_Test">
+        <methods>
+          <include name="close"/>
+          <include name="MensSectionFixturesFunctionality"/>
+          <include name="LiveScoresFunctionality"/>
+          <include name="launch"/>
+          <include name="MensSectionResultsFunctionality"/>
+          <include name="ScoresButtonFunctionality"/>
+          <include name="WomensSectionResultsFunctionality"/>
+          <include name="WomensSectionFixturesFunctionality"/>
+        </methods>
+      </class> <!-- ICC_Test.ICC_Scores_Page_Test -->
+      <class name="ICC_Test.ICC_Homepage_TestPerform">
+        <methods>
+          <include name="TravelSectionVisibility"/>
+          <include name="IccTvSectionVisibility"/>
+          <include name="VideosSectionVisibility"/>
+          <include name="ShopSectionVisibility"/>
+          <include name="EventsSectionVisibility"/>
+          <include name="ScoresSectionVisibility"/>
+          <include name="launch"/>
+          <include name="AwardsSectionVisibility"/>
+          <include name="close"/>
+          <include name="RankingsSectionVisibility"/>
+          <include name="LogoVisibility"/>
+          <include name="HomeSectionVisibility"/>
+          <include name="NewsSectionVisibility"/>
+        </methods>
+      </class> <!-- ICC_Test.ICC_Homepage_TestPerform -->
+      <class name="ICC_Test.ICC_Registration_Page_Test">
+        <methods>
+          <include name="close"/>
+          <include name="LastNameInputBoxFunctionality"/>
+          <include name="LoginPageLinkFunctionality"/>
+          <include name="EmailInputBoxFunctionality"/>
+          <include name="launch"/>
+          <include name="TermsAndConditionLinkFunctionality"/>
+          <include name="TC2Functionality"/>
+          <include name="DobDayInputBoxFunctionality"/>
+          <include name="RegistrationWithInvalidEmailid"/>
+          <include name="RegistrationWithBlankEmailidBox"/>
+          <include name="SignWithAppleLinkFunctionality"/>
+          <include name="DobMonthInputBoxFunctionality"/>
+          <include name="TC1Functionality"/>
+          <include name="SeeEnteredPasswordFunctionality"/>
+          <include name="SignWithFacebookLinkFunctionality"/>
+          <include name="SignWithGoogleLinkFunctionality"/>
+          <include name="PasswordInputBoxFunctionality"/>
+          <include name="RegisterButtonFunationality"/>
+          <include name="DobYearInputBoxFunctionality"/>
+          <include name="FirstNameInputBoxFunctionality"/>
+          <include name="ConfirmPasswordInputBoxFunctionality"/>
+          <include name="SeeEnteredConfirmPasswordFunctionality"/>
+        </methods>
+      </class> <!-- ICC_Test.ICC_Registration_Page_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
